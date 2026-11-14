@@ -348,7 +348,7 @@ h2 em, .hero h1 em { font-style: normal; color: var(--accent); }
 .site-footer .brand-mark { background: #123b60; color: #fff; }
 :root[data-theme="dark"] .site-footer .brand-mark { background: #1d68a3; }
 .footer-about p { max-width: 390px; margin: 20px 0 0; color: var(--footer-muted); font-size: 13px; line-height: 1.85; }
-.footer-grid h4 { margin: 4px 0 16px; color: var(--footer-text); font: 700 14px Manrope, sans-serif; }
+.footer-grid h4, .footer-grid h2 { margin: 4px 0 16px; color: var(--footer-text); font: 700 14px Manrope, sans-serif; }
 .footer-grid > div:not(:first-child) > a,
 .footer-grid > div:not(:first-child) > p {
   display: block; width: fit-content; max-width: 100%; margin: 9px 0; color: var(--footer-muted);
@@ -1082,7 +1082,7 @@ h2 em, .hero h1 em { font-style: normal; color: var(--accent); }
 .pf-card:hover .pf-img img { transform: scale(1.04); }
 .pf-tag { position: absolute; left: 14px; top: 14px; padding: 5px 12px; border-radius: 999px; background: var(--gold); color: #1b2a38; font-size: 11px; font-weight: 800; letter-spacing: .6px; }
 .pf-body { padding: 20px 22px 24px; }
-.pf-body h3 { margin: 0 0 8px; font: 800 19px/1.3 Manrope, sans-serif; color: var(--heading); }
+.pf-body h3, .pf-body h2 { margin: 0 0 8px; font: 800 19px/1.3 Manrope, sans-serif; color: var(--heading); }
 .pf-body p { margin: 0; font-size: 14px; line-height: 1.7; color: var(--muted); }
 @media (max-width: 900px) { .pf-grid-3 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .pf-grid, .pf-grid-3 { grid-template-columns: 1fr; gap: 18px; } }
@@ -1384,7 +1384,7 @@ h2 em, .hero h1 em { font-style: normal; color: var(--accent); }
 .prose-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
 .prose-cta.center { justify-content: center; margin-top: 32px; }
 .pf-img.pf-link { display: block; }
-.pf-body h3 a:hover { color: var(--accent); }
+.pf-body h3 a:hover, .pf-body h2 a:hover { color: var(--accent); }
 .pf-body .news-more { margin-top: 14px; }
 .related-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; }
 .related-grid > .news-card, .related-grid > .news-card:first-child { grid-row: auto; min-height: 0; flex-direction: column; border: 1px solid var(--border); color: inherit; background: var(--surface); }
@@ -1702,7 +1702,7 @@ h2 em, .hero h1 em { font-style: normal; color: var(--accent); }
 
 /* Portofolio: 4 proyek 2x2, proyek lainnya 3 kolom, halaman proyek gabungan */
 .pf-grid.pf-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
-.pf-grid.pf-grid-2 .pf-body h3 { font-size: 21px; }
+.pf-grid.pf-grid-2 .pf-body h3, .pf-grid.pf-grid-2 .pf-body h2 { font-size: 21px; }
 .pf-grid.pf-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 @media (max-width: 1000px) { .pf-grid.pf-grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 700px) { .pf-grid.pf-grid-2, .pf-grid.pf-grid-3 { grid-template-columns: 1fr; gap: 18px; } }
